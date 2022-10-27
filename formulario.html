@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body style="background-color:rgb(241, 235, 235);">
+    <form action="destino.php" method="POST">
+        <center>
+            <div
+                style="border: 1px solid #ffff; border-radius:5px; background-color:#ffff; width: 280px; height: 250px; padding: 15px; text-align: center; box-shadow: 1px 2px 5px;">
+                <h2 style="width:280px; color: blue;">Faça seu Login</h2>
+                <div>
+                    <label style="margin-right:130px;">Aluno:</label>
+                    <br>
+                    <input style="border-radius:5px;" type="text" name="aluno" required>
+                    <br>
+                </div>
+                <div>
+                    <label style="margin-right:130px;">E-mail:</label>
+                    <br>
+                    <input style="border-radius:5px;" type="text" name="email" required>
+                    <br>
+                </div>
+                <div>
+                    <label style="margin-right:130px;">Senha:</label>
+                    <br>
+                    <input style="border-radius:5px;" type="text" name="password" required>
+                    <br>
+                </div>
+                <br>
+                <div>
+                    <button type="submit"
+                        style="background-color:blue; color: aliceblue; border: 1px solid blue; border-radius: 5px; cursor: pointer;">Enviar</button>
+                    <button type="reset"
+                        style="background-color:red; color: aliceblue; border: 1px solid red; border-radius: 5px; cursor: pointer;">Cancelar</button>
+                </div>
+            </div>
+        </center>
+    </form>
+</body>
+
+</html>
